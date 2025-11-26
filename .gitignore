@@ -1,0 +1,19 @@
+# Node / build artifacts (jika ada)
+node_modules/
+dist/
+build/
+
+# Vendor/library yang besar (jangan push)
+assets/vendor/
+
+# VSCode settings (tidak perlu di-repo)
+.vscode/
+
+# OS / editor temp files
+.DS_Store
+Thumbs.db
+*.log
+*.map
+
+# Buat aman: files environment / secret
+.env
